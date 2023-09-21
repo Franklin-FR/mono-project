@@ -7,6 +7,7 @@ body{
     width: 100%;
     min-height: 100%;
     padding: 0px auto;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .navigation{
@@ -30,7 +31,7 @@ body{
     padding: 13px 15px;
     color: #000000;
     font: 15px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     position: relative;
 
 }
@@ -410,7 +411,7 @@ ul{
   height: 31rem;
   padding: 5rem;
   font-size: 18px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   
 }
 
@@ -423,7 +424,7 @@ ul{
   height: 31rem;
   padding: 5rem;
   color: #fff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 
@@ -438,37 +439,37 @@ margin-bottom: 35px;
 
 .Build-for-the-future{
   font-size: 64px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   margin-bottom: 30px;
 
 }
 
 .Bring-tomorrow{
   font-size: 26px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .connect{
   font-size: 45px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   margin-bottom: 20px;
 }
 
 .under-connect{
   font-size: 18px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   margin-bottom: 20px;
 
 }
 
 .Bizz-building{
   font-size: 64px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .Interesting{
   font-size: 26px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 
@@ -491,12 +492,12 @@ margin-bottom: 35px;
 
 .increase-font{
   font-size: 73px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .paragraph{
   font-size: 22px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   margin-bottom: 30px;
 }
 
@@ -562,23 +563,23 @@ ul{
 
 .carbon-header{
   font-size: 45px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .carbon-text{
   font-size: 18px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .why-choose-mono{
   font-size: 64px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
  
 }
 
 .reason{
   font-size: 26px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   margin: 30px 0px 0px;
 }
 
@@ -595,19 +596,92 @@ ul{
 }
 
 .first-item{
+  position: relative;
   width: 590px;
   height: 742px;
   background-color: #f5f5f5;
   padding: 60px;
+  border-radius: 15px;
+  /* font-size: 45px; */
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.line_height{
+  line-height: 1.2em;
+  margin: 0px 0px 50px;
   font-size: 45px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.flex-up{
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 60px;
+  margin: 56.25px 0px 0px;
 }
 
 .second-item{
+  position: relative;
   width: 590px;
   height: 742px;
   background-color: #f5f5f5;
   padding: 60px;
+  border-radius: 15px;
+  /* font-size: 45px; */
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+/* .ceo-image{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 60px;
+  
+
+} */
+
+.container-for-ceo-image{
+  position: relative;
+}
+
+.lets-try{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+.flex-up-two{
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 60px;
+
+}
+
+.container-for-product-manager{
+  position: relative;
+}
+
+.lets-try-this-too{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.line_height_two{
+  line-height: 1.2em;
+  margin: 0px 0px 50px;
   font-size: 45px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.partners{
+  font-size: 18px;
+  color: #000000;
+  font-family: 'DM Sans', sans-serif;
 }
